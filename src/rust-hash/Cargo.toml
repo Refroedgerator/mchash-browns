@@ -1,0 +1,10 @@
+[package]
+name = "fuse_mount"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fuser = "0.12"
+libc = "0.2"
+time = "0.3"
+tikv-jemallocator = "0.5"
